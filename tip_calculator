@@ -1,0 +1,12 @@
+bill = float(input())
+tip_percentage = 0.15
+tax_percentage = 0.067
+
+tip = tip_percentage * bill
+tax = tax_percentage * bill
+
+print(f"Tip: {tip}")
+print(f"Tax: {tax}")
+
+total = bill + tip + tax
+print(f"Total: {total}")
